@@ -1,0 +1,201 @@
+1.txt = "50"
+
+x = txt.zfill(10)
+
+print(x)
+
+  2.txt = "Hello my friends"
+
+x = txt.upper()
+
+print(x)
+ 3.
+txt = "Welcome to my world"
+
+x = txt.title()
+
+print(x)
+
+4.
+txt = "Hello My Name Is PETER"
+
+x = txt.swapcase()
+
+print(x)
+  5.
+txt = "Thank you for the music\nWelcome to the jungle"
+
+x = txt.splitlines()
+
+print(x)
+ 6.
+txt = "welcome to the jungle"
+
+x = txt.split()
+
+print(x)
+7.
+txt = "Hello, welcome to my world."
+
+x = txt.startswith("Hello")
+
+print(x)
+
+8.
+txt = "     banana     "
+
+x = txt.rstrip()
+
+print("of all fruits", x, "is my favorite")
+9.
+txt = "apple, banana, cherry"
+
+x = txt.rsplit(", ")
+
+print(x)
+
+9.
+txt = "I could eat bananas all day, bananas are my favorite fruit"
+
+x = txt.rpartition("bananas")
+
+print(x)
+10.
+txt = "Mi casa, su casa."
+
+x = txt.rindex("casa")
+
+print(x)
+11.
+txt = "Mi casa, su casa."
+
+x = txt.rfind("casa")
+
+print(x)
+12.
+txt "I like bananas"
+
+x = txt.replace("bananas", "apples")
+
+print(x)
+13.
+txt = "My name is Ståle"
+
+x = txt.encode()
+
+print()
+14.
+txt = "H\te\tl\tl\to"
+
+x =  txt.expandtabs(2)
+
+print(x)
+15.
+txt = "Hello, welcome to my world."
+
+x = txt.index("welcome")
+
+print(x)
+16.
+txt = "I could eat bananas all day"
+
+x = txt.partition("bananas")
+
+print(x)
+17.
+txt = "banana"
+
+x = txt.ljust(20)
+
+print(x, "is my favorite fruit.")
+Note: In the result, there are actually 14 whitespaces to the right of the word banana.
+
+18.
+txt = ",,,,,ssaaww.....banana"
+
+x = txt.lstrip(",.asw")
+
+print(x)
+
+19.
+txt = "Hello, And Welcome To My World!"
+
+x = txt.istitle()
+
+print(x)
+
+20.
+txt = "banana"
+
+x = txt.center(20)
+
+print(x)
+21
+txt = "Company12"
+
+x = txt.isalnum()
+
+print(x)
+22
+txt=CompanyX"
+
+x = txt.isalpha()
+
+print(x)
+23
+txt = "\u0033" #unicode for 3
+
+x = txt.isalpha()
+
+print(x)
+24
+a = "\u0030" #unicode for 0
+b = "\u0047" #unicode for G
+
+print(a.isdecimal())
+print(b.isdecimal())
+25
+txt = "50800"
+
+x = txt.isdigit()
+
+print(x)
+26
+txt = "Demo"
+
+x = txt.isidentifier()
+
+print(x)
+27
+txt = "565543"
+
+x = txt.isnumeric()
+
+print(x)
+28.
+txt = "Hello! Are you #1?"
+
+x = txt.isprintable()
+
+print(x)
+29.
+myTuple = ("John", "Peter", "Vicky")
+
+x = "#".join(myTuple)
+
+print(x)
+30
+txt = "   "
+
+x = txt.isspace()
+
+print(x)
+
+
+
+
+
+
+
+
+
